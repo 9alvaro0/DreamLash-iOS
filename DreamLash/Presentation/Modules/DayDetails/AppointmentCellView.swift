@@ -37,7 +37,7 @@ struct AppointmentCellView: View {
         )
         .offset(x: xOffset, y: yOffset)
         .onTapGesture {
-            navigateToDetails()
+//            navigateToDetails()
         }
     }
     
