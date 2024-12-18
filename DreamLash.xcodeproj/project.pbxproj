@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CDDB1F4E2D1015DB00B5C27C /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = CDDB1F4D2D1015DB00B5C27C /* ElegantCalendar */; };
+		CDDB1F502D10170000B5C27C /* ElegantCalendar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB1F4F2D10170000B5C27C /* ElegantCalendar.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CD2EF37D2D0C3727004CBA28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		CD2EF36A2D0C3726004CBA28 /* DreamLash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2EF37C2D0C3727004CBA28 /* DreamLashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamLashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2EF3862D0C3727004CBA28 /* DreamLashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamLashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDB1F4F2D10170000B5C27C /* ElegantCalendar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ElegantCalendar.xcassets; path = "../../../../Library/Developer/Xcode/DerivedData/DreamLash-egvmdzgwwtokjxfqvauvcrjfhuaa/SourcePackages/checkouts/ElegantCalendar/ElegantCalendar.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDB1F4E2D1015DB00B5C27C /* ElegantCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 		CD2EF3612D0C3726004CBA28 = {
 			isa = PBXGroup;
 			children = (
+				CDDB1F4F2D10170000B5C27C /* ElegantCalendar.xcassets */,
 				CD2EF36C2D0C3726004CBA28 /* DreamLash */,
 				CD2EF37F2D0C3727004CBA28 /* DreamLashTests */,
 				CD2EF3892D0C3727004CBA28 /* DreamLashUITests */,
@@ -112,6 +120,7 @@
 			);
 			name = DreamLash;
 			packageProductDependencies = (
+				CDDB1F4D2D1015DB00B5C27C /* ElegantCalendar */,
 			);
 			productName = DreamLash;
 			productReference = CD2EF36A2D0C3726004CBA28 /* DreamLash.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = CD2EF3612D0C3726004CBA28;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CDDB1F4C2D1015DB00B5C27C /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CD2EF36B2D0C3726004CBA28 /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDB1F502D10170000B5C27C /* ElegantCalendar.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDDB1F4C2D1015DB00B5C27C /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDDB1F4D2D1015DB00B5C27C /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDDB1F4C2D1015DB00B5C27C /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CD2EF3622D0C3726004CBA28 /* Project object */;
 }
